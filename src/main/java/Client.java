@@ -12,7 +12,7 @@ public class Client {
 
     public Client() {
         //получаем настройки из файла
-        File settingsFile = new File("D:/Java/COURSE_PROJECTS", "settings.txt");
+        File settingsFile = new File("settings.txt");
         final String HOST = getHost(settingsFile);
         final int PORT = getPort(settingsFile);
 
